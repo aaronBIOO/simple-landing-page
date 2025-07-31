@@ -18,9 +18,11 @@ export function Hero() {
         </div>
 
         <div
-          className="relative flex flex-col items-center text-center lg:text-left lg:py-8 lg:items-start
-                        lg:max-w-none max-w-3xl mx-auto lg:mx-0 lg:flex-1 lg:w-1/2"
-        >
+          className="
+            relative flex flex-col items-center text-center lg:text-left lg:py-8 lg:items-start
+            lg:max-w-none max-w-3xl mx-auto lg:mx-0 lg:flex-1 lg:w-1/2
+          ">
+          
           <h1 className="text-heading-1 text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold">
             Empower Your Business
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 ml-2">

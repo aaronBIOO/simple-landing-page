@@ -1,5 +1,4 @@
 import { Container } from "@/components/shared/Container";
-import logo from "@/assets/logo.svg";
 import { NavItem } from "@/components/shared/NavItem";
 import { BtnLink } from "@/components/shared/BtnLink";
 import { useThemeStore } from "@/store/ThemeStore";
@@ -33,7 +32,7 @@ export function Navbar() {
             {/* Logo */}
             <div className="min-w-max inline-flex relative">
               <a href="/" className="relative flex items-center gap-3">
-                <img src={logo} alt="theFuture Logo" className="w-10 h-10" />
+                <img src="/assets/icon.svg" alt="theFuture Logo" className="w-10 h-10" />
                 <div className="inline-flex text-lg font-semibold text-heading-1">
                   theFuture
                 </div>

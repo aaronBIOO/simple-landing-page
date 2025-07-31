@@ -28,7 +28,7 @@ export function Hero() {
             </span>
           </h1>
           <Paragraph className="mt-8">
-            Our AI SaaS platform seamlessly integrates with your existing
+            Our AI platform seamlessly integrates with your existing
             workflows to deliver real‑time insights, intelligent automation, and
             data‑driven decision-making. Experience a future where your business
             runs smarter, faster, and more efficiently.
